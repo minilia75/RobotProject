@@ -13,5 +13,6 @@ It is a Debian Linux-based operating system that runs on several LEGO® MINDSTOR
 It can be downloaded from https://www.ev3dev.org/
 
 Command to cross compile:
-{% filename %}command-line{% endfilename %}
-docker run --rm -it -h ev3 -v RobotProject/:/src -w /src ev3cc /bin/bash
+```console
+$ docker run --rm -it -h ev3 -v RobotProject/:/src -w /src ev3cc /bin/bash
+```
