@@ -6,5 +6,11 @@ The main objective of this project is to score points during a game by identifyi
 
 Each time an object is identified, information about the object are communicated to the server. 
 
-#### Command for cross compilation
-docker run --rm -it -h ev3 -v ~/Documents/OS_robot/robot-project/robot_code/:/src -w /src ev3cc /bin/bash
+#### Cross compilation
+Compilation made with ev3dev.
+It is a Debian Linux-based operating system that runs on several LEGO® MINDSTORMS compatible platforms including the LEGO® MINDSTORMS EV3 
+
+It can be downloaded from https://www.ev3dev.org/
+
+Command to cross compile:
+docker run --rm -it -h ev3 -v RobotProject/:/src -w /src ev3cc /bin/bash
